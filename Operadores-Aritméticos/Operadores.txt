@@ -1,0 +1,13 @@
+Operadores Aritméticos em Python
+
+Python usa símbolos bem parecidos com os da matemática tradicional. Aqui estão os principais:
+
+
+Operador	Descrição	Exemplo (resultado)
++	Adição	2 + 3 → 5
+-	Subtração	5 - 2 → 3
+*	Multiplicação	4 * 2 → 8
+/	Divisão (float)	10 / 3 → 3.3333
+//	Divisão inteira	10 // 3 → 3
+%	Módulo (resto)	10 % 3 → 1
+**	Exponenciação	2 ** 3 → 8
