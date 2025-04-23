@@ -1,3 +1,5 @@
+#Cadastro Simples: 
+#Objetivo: Crie variáveis para guardar informações de uma pessoa e depois exiba essas informações formatadas.
 nome = 'Igor'
 idade = 33
 cidade = 'Rio de Janeiro'
