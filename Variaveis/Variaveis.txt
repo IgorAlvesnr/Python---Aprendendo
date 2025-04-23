@@ -1,0 +1,25 @@
+O que são variáveis?
+
+Variáveis são como caixinhas com nomes onde você guarda informações para usar depois. Em Python, você não precisa declarar o tipo da variável 
+antes de usá-la — a linguagem entende automaticamente o tipo pelo valor que você atribui.
+
+nome = "João"
+idade = 30
+altura = 1.75
+tem_carteira = True
+
+
+Exemplos de tipos:
+
+str → texto (string): "João"
+int → número inteiro: 30
+float → número com ponto decimal: 1.75
+bool → valor booleano (lógico): True ou False
+
+
+Regras para nomes de variáveis:
+
+Devem começar com uma letra ou underscore (_).
+Podem conter letras, números e underscore.
+Não podem conter espaços nem começar com números.
+Evite usar palavras reservadas do Python, como if, for, print.
