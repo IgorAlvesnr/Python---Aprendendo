@@ -1,0 +1,41 @@
+A função print() no Python é super flexível e tem várias formas de formatar e exibir dados. 
+Vou te mostrar as principais maneiras de usar print() para deixar suas saídas mais organizadas e profissionais.
+
+1. Forma básica
+print("Olá, mundo!")
+
+2. Com variáveis
+nome = "Igor"
+print("Seu nome é", nome)
+
+3. Concatenação de strings
+idade = 30
+print("Você tem " + str(idade) + " anos")
+
+Cuidado: todas as partes precisam ser str pra concatenar!
+
+4. Interpolação com f-strings (a mais moderna e recomendada!)
+nome = "Igor"
+idade = 30
+print(f"Olá, {nome}! Você tem {idade} anos.")
+
+Dá pra fazer contas, formatar casas decimais e muito mais dentro da f-string:
+
+pi = 3.14159
+print(f"O valor de pi com 2 casas decimais é {pi:.2f}")
+
+5. Format com .format() (um pouco mais antigo)
+nome = "Igor"
+print("Olá, {}!".format(nome))
+
+6. Vários argumentos no print()
+print("Nome:", nome, "Idade:", idade)
+O print() separa os argumentos com espaços automaticamente.
+
+7. Alterando separador com sep=
+print("Python", "é", "massa", sep="-")
+# Saída: Python-é-massa
+
+8. Imprimindo na mesma linha com end=
+print("Carregando", end="...")
+# Próximo print será na mesma linha
