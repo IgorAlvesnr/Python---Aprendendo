@@ -1,0 +1,21 @@
+Desvios Condicionais em Python
+
+Eles são usados pra tomar decisões com base em condições. Dependendo do resultado (True ou False), 
+o programa executa um bloco de código.
+
+Sintaxe Básica:
+
+if condição:
+    # bloco executado se a condição for verdadeira
+elif outra_condição:
+    # se a primeira for falsa e essa for verdadeira
+else:
+    # se nenhuma das condições anteriores for verdadeira
+
+Importante:
+ -> Os blocos de código precisam estar identados (com 4 espaços ou Tab).
+
+ -> O elif é opcional, e você pode ter vários.
+
+ -> O else também é opcional, mas só pode aparecer uma vez, no final.
+
