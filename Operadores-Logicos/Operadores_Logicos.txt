@@ -1,0 +1,31 @@
+Operadores Lógicos em Python
+Eles servem para combinar condições, retornando sempre True ou False.
+
+
+Operador	Nome	Descrição
+
+and ->	E lógico	    Retorna True se todas as condições forem verdadeiras
+or	-> OU lógico	    Retorna True se pelo menos uma condição for verdadeira
+not	-> Negação lógica	Inverte o resultado: not True → False, not False → True
+
+Tabela verdade AND
+
+Condição A      Condição B    resultado
+    False           False       False
+    True            False       False
+    False           True        False
+    True            True        True
+
+Tabela verdade OR
+
+Condição A      Condição B    resultado
+    False           False       False
+    True            False       True
+    False           True        True
+    True            True        True
+
+Tabela verdade NOT
+
+   Entrada          Saída   
+    False           True      
+    True            False     
