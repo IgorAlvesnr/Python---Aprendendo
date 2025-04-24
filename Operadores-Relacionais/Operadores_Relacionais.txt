@@ -1,0 +1,12 @@
+O que são operadores relacionais?
+São usados para comparar dois valores. O resultado de uma comparação é sempre True (verdadeiro) ou False (falso).
+
+📋 Tabela de operadores relacionais em Python:
+
+Operador	Significado	Exemplo	Resultado
+==	Igual a	5 == 5	True
+!=	Diferente de	5 != 3	True
+>	Maior que	7 > 3	True
+<	Menor que	2 < 5	True
+>=	Maior ou igual a	4 >= 4	True
+<=	Menor ou igual a	2 <= 3	True
