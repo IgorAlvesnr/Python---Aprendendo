@@ -1,0 +1,30 @@
+ Laços de Repetição em Python
+Existem dois principais:
+ 1. while – repete enquanto a condição for verdadeira
+
+contador = 1
+
+while contador <= 5:
+    print(f"Contando: {contador}")
+    contador += 1
+
+Use while quando não sabe exatamente quantas vezes vai repetir, e depende de uma condição dinâmica.
+
+ 2. for – repete para cada item de uma sequência
+
+for i in range(1, 6):
+    print(f"Contando: {i}")
+
+
+Use for quando você sabe quantas vezes quer repetir, ou está iterando sobre uma lista, string, etc.
+
+Sobre o range()
+O range(início, fim, passo) gera uma sequência de números:
+
+range(1, 6)  # Gera: 1, 2, 3, 4, 5
+range(0, 10, 2)  # Gera: 0, 2, 4, 6, 8
+
+Extras que aparecem bastante:
+break → Interrompe o laço
+
+continue → Pula pro próximo passo do laço
