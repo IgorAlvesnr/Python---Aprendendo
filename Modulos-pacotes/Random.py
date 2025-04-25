@@ -14,3 +14,4 @@ for i in range(5):
     n = random.randint(1,50)
     print(f'Número gerado: {n}')
 
+# Existem muitos outros pacotes dentro do módulo random. É só pesquisar para ter acessos a todos pacotes e suas funcionalidades. (pypi.org)
