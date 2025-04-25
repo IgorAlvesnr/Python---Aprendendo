@@ -1,0 +1,53 @@
+O que são módulos?
+Um módulo em Python é um arquivo .py com funções, variáveis ou classes que você pode importar em outros arquivos.
+
+Exemplo simples:
+
+# arquivo: saudacoes.py
+def boas_vindas(nome):
+    print(f"Olá, {nome}! Bem-vindo(a) ao Python.")
+
+
+# outro arquivo
+import saudacoes
+
+saudacoes.boas_vindas("Igor")
+
+
+O que são pacotes?
+Um pacote é uma pasta que contém vários módulos (ou subpastas com mais módulos) e um arquivo especial chamado __init__.py (mesmo que esteja vazio).
+
+Estrutura:
+meu_pacote/
+│
+├── __init__.py
+├── modulo1.py
+└── modulo2.py
+
+Você pode importar assim:
+
+from meu_pacote import modulo1
+modulo1.funcao_qualquer()
+
+Formas de importar módulos
+
+import math
+print(math.sqrt(25))  # raiz quadrada
+
+
+from math import sqrt
+print(sqrt(25))  # mais direto
+
+
+import math as m
+print(m.pi)
+
+Módulos mais usados da biblioteca padrão:
+
+math – funções matemáticas
+random – números aleatórios
+datetime – datas e horários
+os – interação com o sistema operacional
+sys – informações do sistema
+statistics – média, mediana, etc.
+
